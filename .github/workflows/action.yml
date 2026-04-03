@@ -30,6 +30,7 @@ jobs:
 
       - name: Run Tests
         run: |
+          cd MyService
           chmod +x gradlew
           ./gradlew test
 
